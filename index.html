@@ -1,53 +1,58 @@
 <!DOCTYPE html>
 <html lang="es">
-   <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>detailling cosquin</title>
-   </head>                                                    <h1> ESTETICA VEHICULAR</h1>        
-   <body>
-      <h2> Estas buscando aprender sobre detailling?</h2>
-      <h3>Desde la comodidad de tu casa?</h3>
-      <p>Este es un curso virtual diseñado para las personas que quieren capacitarse con nosotros y esta fuera de las posibilidades de venir presencialmente</p>    
-      <h2>Tenemos cursos que se adaptan a lo que vos queres!</h2>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>detailling cosquin</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
 
-    <ul>
-        <li><h3>basico</h3></li>  
-    <li><h3>intermedio</h3></li>
-    <li><h3>experto</h3></li>
-    </ul>
+  <body>
+    <header>
+      <h1>ESTÉTICA VEHICULAR</h1>
+      <h2>Estás buscando aprender sobre detailling?</h2>
+      <p>Desde la comodidad de tu casa?</p>
+    </header>
 
-    <h3>Dejanos tus datos asi un asesor se comunica con vos</h3>
+    <main>
+      <section id="intro">
+        <p>
+          Este es un curso virtual diseñado para las personas que quieren
+          capacitarse con nosotros y esta fuera de tus posibilidades venir
+          presencialmente
+        </p>
+      </section>
+      <br />
+      <section id="cursos">
+        <h2>Tenemos cursos que se adaptan a lo que vos querés!</h2>
+        <ul>
+          <h3>
+            <li>básico</li>
+            <br />
+            <li>intermedio</li>
+            <br />
+            <li>experto</li>
+            <br />
+          </h3>
+        </ul>
+      </section>
 
-    <div>
-        <label for="nombre">Nombre</label>
-        <input type="text" name="nombre">
-    </div>
+      <section>
+        <p id="datos">Dejános tus datos asi un asesor se comunica con vos</p>
 
-    <div>
-        <label for="apellido">Apellido</label>
-        <input type="text" name="apellido">
+        <form id="formulario">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre name="nombre" />
 
-    </div>
+          <label for="apellido">Apellido</label>
+          <input type="text" id="apellido" name="apellido" />
 
-    <div>
-        <label for="celular">Celular</label>
-        <span><input type="number" name=" caracteristica"></span>-
-        <span><input type="number" name="celular"></span>
+          <label for="celular">Celular</label>
+          <input type="tel" id="celular" placeholder="Ej:3541123456789" />
 
-    </div>
-    
-<a href="Enviar">Enviar</a>  
-
-    <div>
-        <hr>
-
-        <img src="esteticaema.png" alt="">
-
-
-
-
-
-
-
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+  </body>
 </html>

@@ -1,0 +1,153 @@
+** {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-image: url("esteticaema.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: #eee;
+  line-height: 1.6;
+  padding: 60px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
+  margin-top: 20px;
+}
+
+header h1 {
+  text-decoration-line: underline;
+  padding-left: 1em;
+  font-size: 2.8rem;
+  color: #f67b7b;
+  text-shadow: 2px 2px 10px #ff0000;
+  background-color: #000000;
+  border-radius: 10px;
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10em;
+}
+header h2 {
+  font-size: 1.6rem;
+  color: #f67b7b;
+  margin-bottom: 47px;
+  background-color: #000000;
+  border-radius: 10px;
+  width: fit-content;
+  text-shadow: 2px 2px 10px #cf291a;
+}
+
+header p {
+  font-size: 1.1rem;
+  color: #f67b7b;
+  background-color: #000000;
+  border-radius: 10px;
+  width: fit-content;
+  text-shadow: 2px 2px 10px #f74504;
+  margin-bottom: 60px;
+}
+
+main {
+  max-width: 800px;
+}
+
+#intro {
+  margin-bottom: 10px;
+  color: #f67b7b;
+  text-shadow: 2px 2px 10px #f50303;
+  background-color: #000000;
+  border-radius: 10px;
+  width: fit-content;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  margin: 20px 0;
+}
+h2 {
+  background-color: #000000;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #f67b7b;
+  text-shadow: 2px 2px 10px #ee0000e7;
+}
+
+ul li {
+  background-color: #000000;
+  color: #f67b7b;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+form {
+  color: #f67b7b;
+  text-shadow: 2px 2px 10px #f50202;
+  background-color: #000000;
+  border-radius: 10px;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+#datos {
+  font-size: 20px;
+  color: #f67b7b;
+  text-shadow: 2px 2px 10px #f50202;
+  background-color: #000000;
+  border-radius: 10px;
+  width: fit-content;
+}
+
+button {
+  padding: 12px;
+  background-color: #f1f2f2;
+  border: none;
+  color: #111;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  margin-top: 15px;
+  width: fit-content;
+}
+
+button:hover {
+  background-color: #e4492e;
+}
+
+hr {
+  margin: 40px 0;
+  border: 1px solid #444;
+}
